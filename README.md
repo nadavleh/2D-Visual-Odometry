@@ -11,16 +11,8 @@
   <h3 align="center">Fishyfish</h3>
 
   <p align="center">
-    This is simple python chess program written with pygame for the GUI. The chess AI uses minimax with alpha-beta prunning
-    <br />
-    <a href="https://github.com/nadavleh/Chess_AI"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/nadavleh/Chess_AI">View Demo</a>
-    ·
-    <a href="https://github.com/nadavleh/Chess_AI/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/nadavleh/Chess_AI/issues">Request Feature</a>
+  An example of how to excract 2D odometry from two consecutive images 
+  
   </p>
 </p>
 
@@ -53,9 +45,9 @@ So, the homography estimation is pretty easy given matches of points between the
 
 ### Built With
 
-* [opnCV]
-* [Python 3.7.1]
-* [numpy]
+* [opnCV](https://opencv.org/)
+* [Python 3.7.1](https://www.python.org/)
+* [numpy] (https://numpy.org/)
 
 ## Usage
 To run this program you need to put the floor image in the same directory as the .py file. At the start of execution, the program will kindly ask you by how much you want the robot to move (i.e. rotation angle and (x,y) translation), then it transforms the given image in such way as to mimic what the robot will see once it has moved b the specified transformation (bascaly we transform the image using a reverse 2D transformation of the one the user gave as an input). Next, the algorithm preforms the same procedure as described above where the given image is the one taken at time t, and the transformed image is the one at ime t+1.
