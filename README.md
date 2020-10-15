@@ -1,5 +1,3 @@
-# 2D-Visual-Odometry
-
 
 
 <!-- PROJECT LOGO -->
@@ -8,7 +6,7 @@
   <a href="https://github.com/nadavleh/Chess_AI">
   </a>
 
-  <h3 align="center">Fishyfish</h3>
+  <h3 align="center">2D Visual Odometry</h3>
 
   <p align="center">
   An example of how to excract 2D odometry from two consecutive images 
